@@ -1,0 +1,560 @@
+#global {
+    width: 960px;
+    height: 100%;
+    margin: 15px auto;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--0--*/
+
+#cont-nav {
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    box-shadow: 0 0px 5px black;
+    align-items: center;
+}
+
+#marca {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 70px;
+    float: left;
+    margin: 15px;
+    align-items: center;
+    
+
+}
+
+#marca a {
+    text-decoration: none;
+    color: black;
+}
+
+#marca h1 {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 40px;
+}
+
+#marca img {
+    transform: translateY(-8px);
+    height: 100px;
+    width: 100px;
+}
+
+
+#naveg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    float: right;
+    margin: 40px 30px;
+
+}
+
+#naveg a {
+
+    
+    text-decoration: none;
+    font-family: 'Titan One', cursive;
+    text-transform: uppercase;
+    color: black;
+
+    padding: 0 20px;
+    font-size: 18px;
+
+    transition: 0.5s;
+}
+
+#naveg a:hover {
+    font-size: 20px;
+}
+
+
+
+/*PRIMERA SECCION*/
+
+
+#contenido {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
+    background-image: url(./assets/fondos/grass.jpg);
+    border-radius: 25px;
+}
+
+#contenido h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    color: antiquewhite;
+    font-size: 50px;
+    transform: translateY(-40px);
+}
+
+#cards {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(-60px);
+}
+
+#cool {
+    margin: 0 5px;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    background: url(./assets/gifs/cool.gif) center no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    transition: 0.5s;
+    box-shadow: 0 0 40px black;
+}
+
+#joke {
+    margin: 0 5px;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    background: url(./assets/gifs/jokes.gif) center no-repeat;
+    background-size: cover;
+    transition: 0.5s;
+    border: 2px solid black;
+    box-shadow: 0 0 40px black;
+}
+
+#sleepy {
+    margin: 0 5px;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    background: url(./assets/gifs/sleepy.gif) center no-repeat;
+    background-size: cover;
+    transition: 0.5s;
+    border: 2px solid black;
+    box-shadow: 0 0 40px black;
+}
+
+#cool:hover,#joke:hover,#sleepy:hover {
+    opacity: 80%;
+}
+
+#more-but {
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: lightblue;
+
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    color: antiquewhite;
+    font-size: 50px;
+
+    transform: translateY(-30px);
+
+    transition: 0.5s;
+}
+
+#more-but:hover {
+    background-color: lightcoral;
+}
+
+/*CONTACTO*/
+
+
+#contacto {
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./assets/fondos/grass_4.jpg);
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.contact {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 15px;
+    box-shadow: 0 0px 5px black;
+    transition: 0.05s;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 80%;
+}
+
+.contact:hover {
+    transform: scale(1.01);
+}
+
+.form-floating input {
+    width: 300px;
+}
+
+.contact a {
+    font-family: 'Titan One', cursive;
+}
+
+
+.userCard {
+    width: 70%;
+    height: 80%;
+    background-color: aqua;
+    padding: 5px;
+    border: 3px solid gold;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-shadow: 0 0px 5px black;
+    position: relative;
+}
+
+.userCard img {
+    height: 120px;
+    width: 120px;
+    float: right;
+    position: absolute;
+    transform: translateY(-110px) translateX(160px);
+}
+
+
+.userCard h4 {
+    font-family: 'Titan One', cursive;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.userCard span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#map {
+    width: 100%;
+    height: 900px;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 10px;
+    background-image: url(./assets/fondos/grass.jpg);
+}
+
+.map-box {
+    width: 800px;
+    height: fit-content;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.carousel-item {
+    border-radius: 15px;
+}
+
+.carousel-item img {
+    border-radius: 15px;
+}
+
+.carousel-item h3 {
+    font-family: 'Titan One', cursive;
+}
+
+
+/*FOOTER*/
+
+#footer {
+    margin-top: 10px;
+    border-radius: 25px;
+    box-shadow: 0 0px 5px black;
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+}
+
+#rights {
+    margin: 35px 10px;
+    float: left;
+
+    font-family: 'Viga', sans-serif;
+}
+
+.redes {
+    float: right;
+    margin: 25px 15px;
+}
+
+
+#productos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/fondos/grass.jpg);
+    padding: 15px 0px;
+    border-radius: 15px;
+    
+}
+
+
+
+.card {
+    margin: 5px auto;
+    width: 16rem;
+}
+
+.card-body {
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.card-title {
+    font-family: 'Titan One', cursive;
+}
+
+.card a {
+    font-family: 'Titan One', cursive;
+}
+
+
+#tabla {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/fondos/grass.jpg);
+    padding: 20px 0px;
+    border-radius: 15px;
+}
+
+.contenedor-tabla {
+    margin: 0 auto;
+    height: 90%;
+    width: 80%;
+    background-color: lightgray;
+    opacity: 70%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contenedor-tabla button {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.theader {
+    width: 100px;
+    text-align: center;
+}
+
+.stars {
+    text-align: center;
+}
+
+.table h3{
+    font-family: 'Titan One', cursive;
+}
+
+.modal-title {
+    font-family: 'Titan One', cursive;
+}
+
+.modal-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    background-color: aquamarine;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+
+
+.table th {
+    font-family: 'Titan One', cursive;
+}
+
+/*RESPONSIVE*/
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    #global {
+        width: 580px;
+    }
+
+    #naveg a {
+        font-size: 14px;
+        margin: 0 0;
+        padding: 10px;
+        transform: translateY(-11px);
+    }
+
+    #naveg a:hover {
+        font-size: 15px;
+    }
+
+    #contenido {
+        height: auto;
+    }
+
+    #contenido h2 {
+        margin-top: 40px;
+    }
+
+    #cards {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #cool, #jokes, #sleepy {
+        margin: 5px 0;
+    }
+
+
+    #contacto {
+        height: auto;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+    
+    .contact {
+        margin: 10px auto;
+    }
+    
+    #map {
+        height: auto;
+    }
+    
+    .map-box {
+        margin: 10px;
+        width: 400px;
+    }
+    
+}
+
+@media all and (max-width: 599px) {
+    #global {
+        width: 90%;
+    }
+
+    #cont-nav {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    #naveg {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+        float: right;
+        margin: 0 auto;
+    }
+
+    #marca {
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    #naveg a {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    #naveg a:hover {
+        font-size: 16px;
+    }
+
+    #contenido {
+        height: auto;
+    }
+
+    #cards {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #cool, #jokes, #sleepy {
+        margin: 5px 0;
+    }
+
+
+    #contacto {
+        height: auto;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+    
+    .contact {
+        height: 400px;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .form-floating input {
+        width: auto;
+    }
+
+    .userCard {
+        width: 80%;
+        height: 90%;
+    }
+
+    .userCard img {
+        display: none;
+    }
+
+    #map {
+        height: auto;
+    }
+    
+    .map-box {
+        margin: 10px;
+        width: 80%;
+    }
+}
